@@ -2,7 +2,6 @@
 *
 
 # Except these files
-!/.gitignore
 !/app/**
 !/pages/**
 !/components/**
@@ -25,3 +24,4 @@ out
 *.tmp
 *.swp
 .DS_Store
+.next
