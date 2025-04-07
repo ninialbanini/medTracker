@@ -1,6 +1,27 @@
-.vercel
+# Ignore everything
+*
+
+# Except these files
+!/.gitignore
+!/app/**
+!/pages/**
+!/components/**
+!/public/**
+!/styles/**
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.js
+
+
+# Ignore node_modules and build output
+node_modules
+.next
+out
 .env.local
-node_modules
-node_modules
-.next
-.next
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
